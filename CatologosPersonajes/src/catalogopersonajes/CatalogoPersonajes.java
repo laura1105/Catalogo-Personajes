@@ -3,19 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package catologospersonajes;
+package catalogopersonajes;
+
+import GUI.MainFrame;
 
 /**
  *
- * @author Daniel Dueñas
+ * @author estudiantesW
  */
-public class CatologosPersonajes {
-
+public class CatalogoPersonajes {
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+ 
+        MainFrame m= new MainFrame();
     }
     
 }

@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package catologospersonajes;
+package catalogopersonajes;
 
-
+import GUI.MainPanelDetalles;
 import Model.Elfo;
 import Model.Enano;
 import Model.Humano;
@@ -46,8 +46,13 @@ public class Personajes {
     }
 
     public void dibuja(String nombre,String tipo) {
+        MainPanelDetalles detalles = MainPanelDetalles.singleton();
 
-        
+        detalles.actualizaImagenes(personaje.getArma().tipoArma(),
+                personaje.getEscudo().tipoEscudo(),
+                personaje.getCaballeria().tipoCaballeria(),
+                nombre,
+                tipo);
     }
 
 }
