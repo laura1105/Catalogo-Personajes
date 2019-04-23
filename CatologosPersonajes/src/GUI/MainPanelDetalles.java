@@ -41,8 +41,7 @@ public class MainPanelDetalles extends JPanel{
         if(me == null){
             me = new MainPanelDetalles();
             initComponents();
-        }
-        
+        }       
         return me;
     }
     
