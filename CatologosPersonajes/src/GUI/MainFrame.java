@@ -20,7 +20,7 @@ public class MainFrame extends JFrame{
     
     public MainFrame(){
         this.setLayout(null);
-        this.setSize(807, 830);
+        this.setSize(1200, 830);
         this.setLocation(200, 50);
         
         panelCrea = new MainPanelLista();

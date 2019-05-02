@@ -53,6 +53,9 @@ public class Personajes {
                 personaje.getCaballeria().tipoCaballeria(),
                 nombre,
                 tipo);
+        detalles.actualizaDescripcion(personaje.getArma().descripcion(), 
+                personaje.getEscudo().descripcion(), 
+                personaje.getCaballeria().descripcion());
     }
 
 }

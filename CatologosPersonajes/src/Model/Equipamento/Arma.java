@@ -13,4 +13,6 @@ import javax.swing.ImageIcon;
  */
 public interface Arma {
     public ImageIcon tipoArma();
+    
+    public String descripcion();
 }

@@ -17,4 +17,15 @@ public class HumanoArma  implements Arma{
         ImageIcon humanoArma = new ImageIcon("src/imagenes/ArmaHumano.gif");
         return humanoArma;
     }
+
+    @Override
+    public String descripcion() {
+        return "Los humanos han fabricado y usado armas con filo desde la Edad del Bronce."
+                + " La espada se desarrolla a partir de la daga cuando la confección de hojas"
+                + " largas se hace posible a principios del II milenio a. C."
+                + " Las espadas más largas de 90 cm son raras durante la Edad del Bronce,"
+                + " pues su longitud excede la capacidad extensible del bronce (aleación de cobre y estaño)."
+                + " No fue hasta el desarrollo de aleaciones más fuertes, como el acero, que la espada larga "
+                + "fue práctica para el combate.";
+    }
 }

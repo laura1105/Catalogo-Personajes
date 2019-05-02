@@ -13,4 +13,6 @@ import javax.swing.ImageIcon;
  */
 public interface Escudo {
     public ImageIcon tipoEscudo();
+    
+    public String descripcion();
 }

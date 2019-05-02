@@ -13,4 +13,6 @@ import javax.swing.ImageIcon;
  */
 public interface Caballeria {
      public ImageIcon tipoCaballeria();
+     
+     public String descripcion();
 }

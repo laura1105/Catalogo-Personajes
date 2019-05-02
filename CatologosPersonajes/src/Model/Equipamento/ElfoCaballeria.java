@@ -19,4 +19,12 @@ public class ElfoCaballeria implements Caballeria{
         return elfoCaballeria;
     }
 
+    @Override
+    public String descripcion() {
+        return "Los Caballos Élficos (o Corceles Quel'dorei) son una raza de caballos utilizados por los Altos Elfos que"
+                + ", tras varias generaciones de crianza, consiguieron un tipo de corcel de unas características "
+                + "bastante superiores " + "a las de sus semejantes mundanos. Se dice que cada jinete congenia con su caballo "
+                + "hasta tal punto que un leve gruñido del animal puede servir para alertar a su dueño de peligro inminente.";
+    }
+
 }
