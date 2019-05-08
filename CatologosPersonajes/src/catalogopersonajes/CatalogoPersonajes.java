@@ -5,6 +5,7 @@
  */
 package catalogopersonajes;
 
+import GUI.FrameAnimaPersonaje;
 import GUI.MainFrame;
 
 /**
@@ -17,7 +18,8 @@ public class CatalogoPersonajes {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
- 
+        FrameAnimaPersonaje f= new FrameAnimaPersonaje();
+        f.setVisible(true);
         MainFrame m= new MainFrame();
     }
     

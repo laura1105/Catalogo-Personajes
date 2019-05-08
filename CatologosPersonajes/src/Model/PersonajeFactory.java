@@ -19,4 +19,6 @@ public interface PersonajeFactory {
 
     public Escudo getEscudo();
     
+    public String imagen(int id);
+    
 }

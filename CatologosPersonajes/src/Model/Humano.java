@@ -33,6 +33,11 @@ public class Humano implements PersonajeFactory{
         return new HumanoEscudo();
     }
 
+    @Override
+    public String imagen(int id) {
+        return "src/Sprites/HumanoAtaque"+(id+1)+".png";
+    }
+
     
     
 }

@@ -31,5 +31,10 @@ public class Elfo implements PersonajeFactory{
     public Escudo getEscudo() {
         return new ElfoEscudo();
     }
+
+    @Override
+    public String imagen(int id) {
+        return "src/Sprites/ElfoAtaque"+(id+1)+".png";
+    }
     
 }

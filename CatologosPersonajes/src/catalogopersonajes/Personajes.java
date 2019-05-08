@@ -16,9 +16,9 @@ import Model.PersonajeFactory;
  *
  * @author usuario
  */
-public class Personajes {
+public class Personajes extends absPersonajes{
 
-    PersonajeFactory personaje;
+    //PersonajeFactory personaje;
 
     public Personajes(String pj) {
         consultaJugador(pj);

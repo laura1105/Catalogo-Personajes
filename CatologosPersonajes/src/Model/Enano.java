@@ -31,5 +31,10 @@ public class Enano implements PersonajeFactory{
     public Escudo getEscudo() {
         return new EnanoEscudo();
     }
+
+    @Override
+    public String imagen(int id) {
+        return "src/Sprites/EnanoAtaque"+(id+1)+".png";
+    }
     
 }

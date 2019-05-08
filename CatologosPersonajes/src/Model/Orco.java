@@ -32,5 +32,10 @@ public class Orco implements PersonajeFactory{
     public Escudo getEscudo() {
         return new OrcoEscudo();
     }
+
+    @Override
+    public String imagen(int id) {
+        return "src/Sprites/OrcoAtaque"+(id+1)+".png";
+    }
     
 }
