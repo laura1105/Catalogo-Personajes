@@ -74,7 +74,7 @@ public class MainPanelDetalles extends JPanel {
         lArmaImg.setSize(150, 150);
 
         tArmaDesc.setLocation(240, 150);
-        tArmaDesc.setSize(500, 150);
+        tArmaDesc.setSize(500, 180);
         tArmaDesc.setEnabled(false);
         tArmaDesc.setDisabledTextColor(Color.black);
         tArmaDesc.setLineWrap(true);
@@ -88,7 +88,7 @@ public class MainPanelDetalles extends JPanel {
         lEscudoImg.setSize(150, 150);
 
         tEscudoDesc.setLocation(240, 340);
-        tEscudoDesc.setSize(500, 150);
+        tEscudoDesc.setSize(500, 180);
         tEscudoDesc.setEnabled(false);
         tEscudoDesc.setDisabledTextColor(Color.black);
         tEscudoDesc.setLineWrap(true);
@@ -102,7 +102,7 @@ public class MainPanelDetalles extends JPanel {
         lCaballeriaImg.setSize(150, 150);
 
         tCaballeriaDesc.setLocation(240, 530);
-        tCaballeriaDesc.setSize(500, 150);
+        tCaballeriaDesc.setSize(500, 180);
         tCaballeriaDesc.setEnabled(false);
         tCaballeriaDesc.setDisabledTextColor(Color.black);
         tCaballeriaDesc.setLineWrap(true);
