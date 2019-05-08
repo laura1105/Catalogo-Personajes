@@ -57,5 +57,9 @@ public class Personajes extends absPersonajes{
                 personaje.getEscudo().descripcion(), 
                 personaje.getCaballeria().descripcion());
     }
+    
+    public void Atacar(){
+        personaje.atatcar(personaje);
+    }
 
 }

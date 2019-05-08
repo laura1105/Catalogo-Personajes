@@ -21,4 +21,6 @@ public interface PersonajeFactory {
     
     public String imagen(int id);
     
+    public void atatcar(PersonajeFactory p);
+    
 }

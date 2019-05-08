@@ -5,6 +5,7 @@
  */
 package Model;
 
+import GUI.FrameAnimaPersonaje;
 import Model.Equipamento.Arma;
 import Model.Equipamento.Caballeria;
 import Model.Equipamento.EnanoArma;
@@ -35,6 +36,10 @@ public class Enano implements PersonajeFactory{
     @Override
     public String imagen(int id) {
         return "src/Sprites/EnanoAtaque"+(id+1)+".PNG";
+    }
+    @Override
+    public void atatcar(PersonajeFactory p) {
+        FrameAnimaPersonaje pf = new FrameAnimaPersonaje(p);
     }
     
 }

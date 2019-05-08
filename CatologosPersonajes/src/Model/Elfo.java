@@ -5,6 +5,7 @@
  */
 package Model;
 
+import GUI.FrameAnimaPersonaje;
 import Model.Equipamento.Arma;
 import Model.Equipamento.Caballeria;
 import Model.Equipamento.ElfoArma;
@@ -36,6 +37,11 @@ public class Elfo implements PersonajeFactory{
     public String imagen(int id) {
         return "src/Sprites/ElfoAtaque"+(id+1)+".PNG";
         
+    }
+
+    @Override
+    public void atatcar(PersonajeFactory p) {
+        FrameAnimaPersonaje pf = new FrameAnimaPersonaje(p);
     }
     
 }

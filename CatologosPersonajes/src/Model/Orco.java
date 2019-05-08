@@ -5,6 +5,7 @@
  */
 package Model;
 
+import GUI.FrameAnimaPersonaje;
 import Model.Equipamento.Arma;
 import Model.Equipamento.Caballeria;
 import Model.Equipamento.Escudo;
@@ -38,4 +39,8 @@ public class Orco implements PersonajeFactory{
         return "src/Sprites/OrcoAtaque"+(id+1)+".PNG";
     }
     
+    @Override
+    public void atatcar(PersonajeFactory p) {
+        FrameAnimaPersonaje pf = new FrameAnimaPersonaje(p);
+    }
 }
