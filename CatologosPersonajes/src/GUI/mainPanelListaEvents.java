@@ -57,6 +57,7 @@ public class mainPanelListaEvents{
                 Personajes p = new Personajes(lista.getSelectedValue().toString().split("-")[0].trim());
                 p.dibuja(lista.getSelectedValue().toString().split("-")[1].trim(),
                         lista.getSelectedValue().toString().split("-")[0].trim());
+                FrameAnimaPersonaje pf = new FrameAnimaPersonaje(p.getPj());
             }
         
         });

@@ -34,7 +34,7 @@ public class Enano implements PersonajeFactory{
 
     @Override
     public String imagen(int id) {
-        return "src/Sprites/EnanoAtaque"+(id+1)+".png";
+        return "src/Sprites/EnanoAtaque"+(id+1)+".PNG";
     }
     
 }

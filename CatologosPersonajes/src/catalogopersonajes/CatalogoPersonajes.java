@@ -17,9 +17,7 @@ public class CatalogoPersonajes {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        FrameAnimaPersonaje f= new FrameAnimaPersonaje();
-        f.setVisible(true);
+    public static void main(String[] args) { 
         MainFrame m= new MainFrame();
     }
     

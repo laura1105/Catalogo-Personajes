@@ -7,6 +7,7 @@ package GUI;
 
 import Model.PersonajeFactory;
 import catalogopersonajes.Personajes;
+import java.awt.Color;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -26,6 +27,7 @@ public class PanelAnimaPersonaje extends JPanel {
     PersonajeFactory p;
     public PanelAnimaPersonaje(PersonajeFactory p) {
         this.p=p;
+        this.setBackground(Color.white);
         l.setSize(300,300);
         l.setLocation(0, 0);
         this.add(l);
@@ -34,43 +36,46 @@ public class PanelAnimaPersonaje extends JPanel {
     }
 
     public void dibuja() {
-        Timer t = new Timer(1000, new ActionListener() {
+        Timer t = new Timer(200, new ActionListener() {
             int c =0;
             public void actionPerformed(ActionEvent e) {
                 switch(c){
                     case 0:
                         ic = new ImageIcon(p.imagen(c));
-                        ic = new ImageIcon(ic.getImage().getScaledInstance(150, 150, Image.SCALE_DEFAULT));
+                        ic = new ImageIcon(ic.getImage().getScaledInstance(300, 300, Image.SCALE_DEFAULT));
                         l.setIcon(ic);
                         c++;
                         break;
                     case 1:
                         ic = new ImageIcon(p.imagen(c));
-                        ic = new ImageIcon(ic.getImage().getScaledInstance(150, 150, Image.SCALE_DEFAULT));
+                        ic = new ImageIcon(ic.getImage().getScaledInstance(300, 300, Image.SCALE_DEFAULT));
                         l.setIcon(ic);
                         c++;
                         break;
                     case 2:
                         ic = new ImageIcon(p.imagen(c));
-                        ic = new ImageIcon(ic.getImage().getScaledInstance(150, 150, Image.SCALE_DEFAULT));
+                        ic = new ImageIcon(ic.getImage().getScaledInstance(300, 300, Image.SCALE_DEFAULT));
                         l.setIcon(ic);
                         c++;
                         break;
                     case 3:
                         ic = new ImageIcon(p.imagen(c));
-                        ic = new ImageIcon(ic.getImage().getScaledInstance(150, 150, Image.SCALE_DEFAULT));
+                        ic = new ImageIcon(ic.getImage().getScaledInstance(300, 300, Image.SCALE_DEFAULT));
                         l.setIcon(ic);
-                        c++;
                         c=0;
                         break;
                     default:
                         c=0;
                 }
-                repaint();
+                d();
             }
         });
         t.start();
 
+    }
+    
+    public void d(){
+        this.repaint();
     }
 
 }

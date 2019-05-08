@@ -34,7 +34,8 @@ public class Elfo implements PersonajeFactory{
 
     @Override
     public String imagen(int id) {
-        return "src/Sprites/ElfoAtaque"+(id+1)+".png";
+        return "src/Sprites/ElfoAtaque"+(id+1)+".PNG";
+        
     }
     
 }

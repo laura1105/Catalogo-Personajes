@@ -5,6 +5,7 @@
  */
 package GUI;
 
+import Model.PersonajeFactory;
 import javax.swing.JFrame;
 
 /**
@@ -14,11 +15,11 @@ import javax.swing.JFrame;
 public class FrameAnimaPersonaje extends JFrame{
     PanelAnimaPersonaje p;
     
-    public FrameAnimaPersonaje(){
-        p = new PanelAnimaPersonaje(null);
+    public FrameAnimaPersonaje(PersonajeFactory pf){
+        p = new PanelAnimaPersonaje(pf);
         p.setSize(300, 300);
         this.setSize(300, 300);
         this.setVisible(true);
-        
+        this.add(p);
     }
 }
