@@ -6,8 +6,6 @@
 package GUI;
 
 import javax.swing.JFrame;
-import javax.swing.JPanel;
-import sun.applet.Main;
 
 /**
  *

@@ -5,6 +5,7 @@
  */
 package catalogopersonajes;
 
+import Adapters.AdapterIngElectrical;
 import GUI.MainPanelDetalles;
 import Model.Elfo;
 import Model.Enano;
@@ -35,11 +36,11 @@ public class Personajes extends absPersonajes{
             case "Humano":
                 personaje = new Humano();
                 break;
-            case "Enano":
+            case "Enadno":
                 personaje = new Enano();
                 break;
-            case "Ingeniero":
-                personaje = new Enano();
+            case "Enano":
+                personaje = new AdapterIngElectrical();
                 break;
         }
     }
