@@ -6,7 +6,6 @@
 package GUI;
 
 import Model.PersonajeFactory;
-import catalogopersonajes.Personajes;
 import java.awt.Color;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
@@ -41,25 +40,25 @@ public class PanelAnimaPersonaje extends JPanel {
             public void actionPerformed(ActionEvent e) {
                 switch(c){
                     case 0:
-                        ic = new ImageIcon(p.imagen(c));
+                        ic = p.imagen(c);
                         ic = new ImageIcon(ic.getImage().getScaledInstance(300, 300, Image.SCALE_DEFAULT));
                         l.setIcon(ic);
                         c++;
                         break;
                     case 1:
-                        ic = new ImageIcon(p.imagen(c));
+                        ic = p.imagen(c);
                         ic = new ImageIcon(ic.getImage().getScaledInstance(300, 300, Image.SCALE_DEFAULT));
                         l.setIcon(ic);
                         c++;
                         break;
                     case 2:
-                        ic = new ImageIcon(p.imagen(c));
+                        ic = p.imagen(c);
                         ic = new ImageIcon(ic.getImage().getScaledInstance(300, 300, Image.SCALE_DEFAULT));
                         l.setIcon(ic);
                         c++;
                         break;
                     case 3:
-                        ic = new ImageIcon(p.imagen(c));
+                        ic = p.imagen(c);
                         ic = new ImageIcon(ic.getImage().getScaledInstance(300, 300, Image.SCALE_DEFAULT));
                         l.setIcon(ic);
                         c=0;

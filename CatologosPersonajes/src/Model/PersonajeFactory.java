@@ -6,6 +6,7 @@
 package Model;
 
 import Model.Equipamento.*;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -19,7 +20,7 @@ public interface PersonajeFactory {
 
     public Escudo getEscudo();
     
-    public String imagen(int id);
+    public ImageIcon imagen(int id);
     
     public void atatcar(PersonajeFactory p);
     

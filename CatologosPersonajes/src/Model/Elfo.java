@@ -12,6 +12,7 @@ import Model.Equipamento.ElfoArma;
 import Model.Equipamento.ElfoCaballeria;
 import Model.Equipamento.ElfoEscudo;
 import Model.Equipamento.Escudo;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -34,8 +35,8 @@ public class Elfo implements PersonajeFactory{
     }
 
     @Override
-    public String imagen(int id) {
-        return "src/Sprites/ElfoAtaque"+(id+1)+".PNG";
+    public ImageIcon imagen(int id) {
+        return new ImageIcon("src/Sprites/ElfoAtaque"+(id+1)+".PNG");
         
     }
 

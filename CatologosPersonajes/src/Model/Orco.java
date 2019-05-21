@@ -12,6 +12,7 @@ import Model.Equipamento.Escudo;
 import Model.Equipamento.OrcoArma;
 import Model.Equipamento.OrcoCaballeria;
 import Model.Equipamento.OrcoEscudo;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -35,8 +36,8 @@ public class Orco implements PersonajeFactory{
     }
 
     @Override
-    public String imagen(int id) {
-        return "src/Sprites/OrcoAtaque"+(id+1)+".PNG";
+    public ImageIcon imagen(int id) {
+        return new ImageIcon("src/Sprites/OrcoAtaque"+(id+1)+".PNG");
     }
     
     @Override

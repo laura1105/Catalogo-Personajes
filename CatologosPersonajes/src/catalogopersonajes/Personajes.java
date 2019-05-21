@@ -36,10 +36,10 @@ public class Personajes extends absPersonajes{
             case "Humano":
                 personaje = new Humano();
                 break;
-            case "Enadno":
+            case "Enano":
                 personaje = new Enano();
                 break;
-            case "Enano":
+            case "Ing. electrico":
                 personaje = new AdapterIngElectrical();
                 break;
         }

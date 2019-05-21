@@ -12,6 +12,7 @@ import Model.Equipamento.Escudo;
 import Model.Equipamento.HumanoArma;
 import Model.Equipamento.HumanoCaballeria;
 import Model.Equipamento.HumanoEscudo;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -35,8 +36,8 @@ public class Humano implements PersonajeFactory{
     }
 
     @Override
-    public String imagen(int id) {
-        return "src/Sprites/HumanoAtaque"+(id+1)+".PNG";
+    public ImageIcon imagen(int id) {
+        return new ImageIcon("src/Sprites/HumanoAtaque"+(id+1)+".PNG");
     }
 
     @Override

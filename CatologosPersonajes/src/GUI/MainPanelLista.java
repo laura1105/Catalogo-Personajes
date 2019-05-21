@@ -44,26 +44,31 @@ public class MainPanelLista extends JPanel {
         JRadioButton jRBElfo = new JRadioButton("Elfo");
         JRadioButton jRBHumano = new JRadioButton("Humano");
         JRadioButton jRBEnano = new JRadioButton("Enano");
+        JRadioButton jRBIngElectrico = new JRadioButton("Ing. electrico");
         pj.add(jRBOrco);
         pj.add(jRBElfo);
         pj.add(jRBHumano);
         pj.add(jRBEnano);
+        pj.add(jRBIngElectrico);
         jRBOrco.setBackground(Color.WHITE);
         jRBElfo.setBackground(Color.WHITE);
         jRBHumano.setBackground(Color.WHITE);
         jRBEnano.setBackground(Color.WHITE);
+        jRBIngElectrico.setBackground(Color.WHITE);
         jRBOrco.setSize(150, 30);
         jRBElfo.setSize(150, 30);
         jRBHumano.setSize(150, 30);
         jRBEnano.setSize(150, 30);
+        jRBIngElectrico.setSize(150, 30);
         jRBOrco.setLocation(30, 80);
         jRBElfo.setLocation(30, 110);
         jRBHumano.setLocation(30, 140);
         jRBEnano.setLocation(30, 170);
+        jRBIngElectrico.setLocation(30, 200);
 
         JButton nuevoPj = new JButton("Agregar Personaje");
         nuevoPj.setSize(200, 30);
-        nuevoPj.setLocation(30, 210);
+        nuevoPj.setLocation(30, 230);
 
         DefaultListModel listModel = new DefaultListModel();
         JScrollPane scrollPane = new JScrollPane();
@@ -86,6 +91,7 @@ public class MainPanelLista extends JPanel {
         this.add(jRBElfo);
         this.add(jRBHumano);
         this.add(jRBEnano);
+        this.add(jRBIngElectrico);
         this.add(scrollPane);
 
     }

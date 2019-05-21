@@ -12,6 +12,7 @@ import Model.Equipamento.EnanoArma;
 import Model.Equipamento.EnanoCaballeria;
 import Model.Equipamento.EnanoEscudo;
 import Model.Equipamento.Escudo;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -34,8 +35,8 @@ public class Enano implements PersonajeFactory{
     }
 
     @Override
-    public String imagen(int id) {
-        return "src/Sprites/EnanoAtaque"+(id+1)+".PNG";
+    public ImageIcon imagen(int id) {
+        return new ImageIcon("src/Sprites/EnanoAtaque"+(id+1)+".PNG");
     }
     @Override
     public void atatcar(PersonajeFactory p) {

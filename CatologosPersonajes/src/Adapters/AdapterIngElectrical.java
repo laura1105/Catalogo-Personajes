@@ -72,8 +72,9 @@ public class AdapterIngElectrical extends ElectricalEngineerFactory implements P
     }
 
     @Override
-    public String imagen(int id) {
-        return getClass().getResource("ElectEngr1.jpg").getPath();
+    public ImageIcon imagen(int id) {
+        return super.getImages()[id];
+        //return getClass().getResource("ElectEngr1.jpg").getPath();
         
     }
 
