@@ -1,7 +1,7 @@
 # Catalogo-Personajes
-Carlos Lopez-20172020136
-Laura Dueñas-20172020102
-Julian Rincon-20172020125
+Carlos Lopez-20172020136.
+Laura Dueñas-20172020102.
+Julian Rincon-20172020125.
 
 El siguiente programa busca el uso del patron Abstract Factory, consiste en la creacion de familias de objetos especializadas para la batalla entre especies. por lo que on la ayuda de los paquetes Model y Model.Estudiantes los cuales ayudaran a crear y obtener cada pieza de un personaje en especifico.
 Ejemplo la creacion de la arma, escudo y caballeria para un orco.
