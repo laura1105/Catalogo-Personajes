@@ -39,7 +39,7 @@ public class Enano implements PersonajeFactory{
         return new ImageIcon("src/Sprites/EnanoAtaque"+(id+1)+".PNG");
     }
     @Override
-    public void atatcar(PersonajeFactory p) {
+    public void atacar(PersonajeFactory p) {
         FrameAnimaPersonaje pf = new FrameAnimaPersonaje(p);
     }
     

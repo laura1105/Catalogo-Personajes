@@ -7,6 +7,7 @@ package catalogopersonajes;
 
 import Adapters.AdapterIngElectrical;
 import GUI.MainPanelDetalles;
+import Model.Decoradores.decoradorOrco;
 import Model.Elfo;
 import Model.Enano;
 import Model.Humano;
@@ -29,6 +30,7 @@ public class Personajes extends absPersonajes{
         switch (pj) {
             case "Orco":
                 personaje = new Orco();
+                personaje= new decoradorOrco();
                 break;
             case "Elfo":
                 personaje = new Elfo();
@@ -63,7 +65,8 @@ public class Personajes extends absPersonajes{
     }
     
     public void Atacar(){
-        personaje.atatcar(personaje);
+        personaje.atacar(personaje);
     }
 
+    
 }

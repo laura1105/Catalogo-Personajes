@@ -22,6 +22,6 @@ public interface PersonajeFactory {
     
     public ImageIcon imagen(int id);
     
-    public void atatcar(PersonajeFactory p);
+    public void atacar(PersonajeFactory p);
     
 }

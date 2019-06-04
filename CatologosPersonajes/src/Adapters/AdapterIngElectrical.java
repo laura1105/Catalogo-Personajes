@@ -79,7 +79,7 @@ public class AdapterIngElectrical extends ElectricalEngineerFactory implements P
     }
 
     @Override
-    public void atatcar(PersonajeFactory p) {
+    public void atacar(PersonajeFactory p) {
         FrameAnimaPersonaje pf = new FrameAnimaPersonaje(p);
     }
     

@@ -41,7 +41,7 @@ public class Humano implements PersonajeFactory{
     }
 
     @Override
-    public void atatcar(PersonajeFactory p) {
+    public void atacar(PersonajeFactory p) {
         FrameAnimaPersonaje pf = new FrameAnimaPersonaje(p);
     }
     
