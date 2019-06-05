@@ -11,4 +11,4 @@ Con ayuda del builder contruye el personaje obteniendo cada pieza la cual se gen
 Gracias al patron adapter se abstae un personaje externo y se adapta al proyecto, Se encuentra en los paquetes Adapter, dist_Ingeniero.
 
 Y finalmente con el patron decorador se añade dinámicamente nuevas responsabilidades a un objeto, en este caso a un ogro proporcionando
-una alternativa flexible a la herencia para extender la funcionalidad. 
+una alternativa flexible a la herencia para extender la funcionalidad, este se encuentra en el paquete decoradores dentro del paquete modelo, la clase se llama decoradorOrco. 
