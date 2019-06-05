@@ -9,3 +9,6 @@ Ejemplo la creacion de la arma, escudo y caballeria para un orco.
 Con ayuda del builder contruye el personaje obteniendo cada pieza la cual se genera a partir del abstrac factory y se encuentra en el paquete CatalagoPersonajes especificamente en la clase personajes.
 
 Gracias al patron adapter se abstae un personaje externo y se adapta al proyecto, Se encuentra en los paquetes Adapter, dist_Ingeniero.
+
+Y finalmente con el patron decorador se añade dinámicamente nuevas responsabilidades a un objeto, en este caso a un ogro proporcionando
+una alternativa flexible a la herencia para extender la funcionalidad. 
